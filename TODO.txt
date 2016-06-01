@@ -1,0 +1,28 @@
+Refresh whole display when gutter size changes (2 to 3 digit).
+Load only x line starting from x line from a file (allows to data load large files more quickly).
+Option to not open all of a projects the files automaticly
+Add support for utf-8 (detect byte order bytes and add option to specify manually and save the byte order)
+
+When openeing a file with 0 lines, add a line by default.
+Ctrl+D Delete current line.
+
+Show hidden window when a file is openned by doubleclicking.
+Confirm close other or all.
+
+Fix bug that prevent deleting selected lines when the selection goes outside the visible part.
+
+History of recent documents and projects.
+Auto save.
+
+Add tabulation character support, display tabs with a specific width and
+when converting mousetopos use that width to offset to get the real character position.
+
+Wrap the text, when mouse is clicked start from top row and then calculate the pos considering
+the wrapping. 
+
+Display appropriate Tools menu based on file extension.
+Support for c++ files and headers. [Different program called Lambda C++ Editor]
+Document validating. [Validates basic syntax of certain documents like brackets]
+Tag database, create a struct for each tag, with name and type (single or not)
+ and default parameter that the user can specify in the options.
+Option to discard trailling spaces.
